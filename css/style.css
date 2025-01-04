@@ -141,13 +141,13 @@ h1,h2,h3,h4,h5,h6,p{
     width: 1158px;
     margin: 0 auto;
     padding: 0 15px;
-    padding: 188px 0;
 }
 
 .business{
     background-color: #2e2f42;
     display: flex;
     text-align: center;
+    padding: 188px 0;
 }
 
 button{
@@ -385,6 +385,7 @@ button{
 
 .container{
     display: inline-block;
+    margin-bottom: 16px;
 }
 .logo{
     font-family: "Raleway", sans-serif;
@@ -406,6 +407,5 @@ button{
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #f4f4fd;
-    margin-bottom: 16px;
 }
 
