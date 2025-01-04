@@ -31,6 +31,9 @@ h1,h2,h3,h4,h5,h6,p{
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
+    display: flex;
+    align-items: center;
+    margin-right: 76px;
 }
 
 .img{
@@ -190,6 +193,10 @@ button{
     background-color: #404bbf;
 }
 
+
+.harakter{
+    padding: 120px 0;
+}
 .visually-hidden{
     position: absolute;
     width: 1px;
@@ -248,6 +255,8 @@ button{
 .komand{
     background-color: #f4f4fd;
     padding: 120px 0;
+    display: flex;
+    gap: 24px;
 }
 
 .komand-list{
@@ -293,6 +302,10 @@ button{
     background-color: #fff;
     padding-top: 120px;
     padding-bottom: 120px;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 48px;
 }
 
 
@@ -361,9 +374,14 @@ button{
     background-color: #2e2f42;
     padding-top: 100ppx;
     padding-bottom: 100px;
+    padding: 100px 0;
 }
 
-.logo footer-logo{
+.container{
+    display: inline-block;
+    margin-bottom: 16px;
+}
+.logo{
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
