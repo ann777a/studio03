@@ -315,6 +315,11 @@ button{
     row-gap: 48px;
 }
 
+
+.our-portfolio{
+    width: calc((100% - 48px) / 3);
+}
+
 .port-label{
     display: flex;
     flex-direction: column;
@@ -332,24 +337,10 @@ button{
     margin-bottom: 8px;
 }
 
-
-.our-portfolio{
-    width: calc((100% - 48px) / 3);
-}
-
-
 .prod-text{
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-}
-
-.text-footer{
-    font-weight: 264px;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #f4f4fd;
 }
 
 .pages-footer{
@@ -359,34 +350,25 @@ button{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    display: flex;
 }
 
-.logo{
-    font-family: "Raleway", sans-serif;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    color: #4d5ae5;
-    margin-right: 76px;
-    display: inline-block;
-    text-transform: uppercase;
-    text-decoration: none;
-    margin-bottom: 16px;
-}
+
 .logo-footer{
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
     line-height: 1.17;
     letter-spacing: 0.03em;
-    color: #f4f4fd;
-    margin-right: 76px;
+    color: #4d5ae5;
     display: inline-block;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-bottom: 16px;
 }
 
 footer .logo-part{
-    color: #2e2f42;
+    color: #f4f4fd;
     font-size: 18px;
     font-weight: 700;
     line-height: 1.17;
@@ -401,4 +383,3 @@ footer .logo-part{
     max-width: 264px;
     font-size: 16px;
 }
-
