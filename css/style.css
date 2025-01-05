@@ -357,6 +357,7 @@ button{
     letter-spacing: 0.02em;
     text-transform: uppercase;
     color: #f4f4fd;
+    display: inline-block;
 }
 
 .pages-footer{
