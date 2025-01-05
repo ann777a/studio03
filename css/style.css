@@ -35,8 +35,6 @@ img{
 
 button{
     cursor: pointer;
-    height: 56px;
-    border: none;
 }
 
 .page-header{
@@ -103,7 +101,6 @@ button{
 
 .address{
     font-style: normal;
-    display: block;
     padding-top: 24px;
     padding-bottom: 24px;
     gap: 40px;
