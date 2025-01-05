@@ -2,54 +2,49 @@ body{
     font-family: "Roboto", sans-serif;
     color: #434455;
     background-color: #fff;
-    margin: 0;
-    padding: 0;
 }
 
 ul, ol{
     list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
-
-li{
-    list-style: none;
-}
-
-a {
-    text-decoration: none;
-    color: inherit;
+    margin-top: 0;
+    padding-left: 0;
+    margin-bottom: 0;
 }
 
 h1,h2,h3,h4,h5,h6,p{
-    margin: 0;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
-.logo {
-    font-family: "Raleway", sans-serif;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: #4d5ae5;
-    display: flex;
-    align-items: center;
-    margin-right: 76px;
+.container{
+    padding-left: auto;
+    padding-right: auto;
+    width: 1158px;
+    padding-right: 15px;
+    padding-left: 15px;
 }
 
 .img{
     display: block;
 }
 
-.logo-part{
-    font-family: "Raleway", sans-serif;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: #2e2f42;
+button{
+    cursor: pointer;
+}
+
+.page-header{
+    border-bottom: 1px solid #e7e9fc;
+}
+
+.header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-nav{
+    display: flex;
+    align-items: center;
 }
 
 .logo-header{
@@ -64,8 +59,21 @@ h1,h2,h3,h4,h5,h6,p{
     margin-right: 76px;
 }
 
-.nav-item{
+.logo-part{
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
     color: #2e2f42;
+}
+
+.nav-list{
+    display: flex;
+    padding-bottom: 24px;
+}
+
+.nav-item{
     padding-top: 24px;
     padding-bottom: 24px;
 }
@@ -75,53 +83,9 @@ h1,h2,h3,h4,h5,h6,p{
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: currentColor;
     color: #2e2f42;
     text-decoration: none;
     padding: 24px 0;
-}
-
-.nav-list{
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    text-decoration: none;
-    color: #434455;
-}
-
-
-.header-logo .logo-part{
-    color: #2e2f42;
-}
-
-.logo-part{
-    color: #f4f4fd;
-}
-
-
-.address{
-    font-style: normal;
-    display: block;
-    padding-top: 24px;
-    padding-bottom: 24px;
-}
-
-.contact{
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
-    padding: 24px 0;
-    display: block;
-}
-
-.contacts-list{
-    display: flex;
-    gap: 40px;
-    padding: 0;
-    padding-top: 24px;
-    padding-bottom: 24px;
-    margin: 0 auto;
 }
 
 .nav-link:hover,
@@ -129,59 +93,32 @@ h1,h2,h3,h4,h5,h6,p{
     color: #404bbf;
 }
 
+.address{
+    font-style: normal;
+    display: flex;
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
 
-.contacts-item{
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: 434455;
+.contacts-list{
+    display: flex;
+    gap: 40px;
 }
 
 .contact{
-    font-style: normal;
-}
-
-.page-header{
-    border-bottom: 1px solid #e7e9fc;
-    display: flex;
-    color: #fff;
-    padding-top: 16px;
-    padding-bottom: 16px;
-    margin: 0 auto;
-    max-width: 320px;
-}
-
-.header .container{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.header-nav{
-    display: flex;
-    align-items: center;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+    text-decoration: none;
 }
 
 .contact:hover,
 .contact:focus{
     color: #404bbf;
-}
-
-.container-header{
-    display: flex;
-    justify-content: space-between;
-    padding-left: 16px;
-    padding-right: 16px;
-}
-
-.container{
-    max-width: 320px;
-    padding-left: 16px;
-    padding-right: 16px;
-    width: 1158px;
-    margin: 0 auto;
-    padding: 0 15px;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 
 .business{
@@ -191,11 +128,6 @@ h1,h2,h3,h4,h5,h6,p{
     padding: 188px 0;
 }
 
-button{
-    cursor: pointer;
-    font-family: inherit;
-    border: none;
-}
 
 .nav{
     display: flex;
@@ -297,7 +229,7 @@ button{
 
 .komand{
     background-color: #f4f4fd;
-    padding: 120px;
+    padding-top: 120px;
     padding-bottom: 120px;
 }
 
