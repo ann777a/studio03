@@ -315,23 +315,6 @@ button{
     row-gap: 48px;
 }
 
-.prod-serv{
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
-}
-
-.prod-serv{
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
-    margin-bottom: 8px;
-}
-
 .our-portfolio{
     width: calc((100% - 48px) / 3);
 }
@@ -343,6 +326,15 @@ button{
     border: 1px solid #e7e9fc;
     border-top: none;
 }
+
+.prod-serv{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
 
 .prod-text{
     font-size: 16px;
@@ -361,10 +353,11 @@ button{
 
 .pages-footer{
     background-color: #2e2f42;
-    padding-top: 100ppx;
-    padding-bottom: 100px;
+    min-height: 312px;
     padding: 100px 0;
-    display: inline-block;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .logo-footer{
@@ -394,5 +387,7 @@ button{
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #f4f4fd;
+    max-width: 264px;
+    font-size: 16px;
 }
 
