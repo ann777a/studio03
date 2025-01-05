@@ -2,6 +2,8 @@ body{
     font-family: "Roboto", sans-serif;
     color: #434455;
     background-color: #fff;
+    margin: 0;
+    padding: 0;
 }
 
 ul, ol{
@@ -76,6 +78,7 @@ h1,h2,h3,h4,h5,h6,p{
     display: flex;
     gap: 40px;
     padding: 24px 0;
+    align-items: center;
 }
 
 .nav-link{
@@ -102,6 +105,10 @@ h1,h2,h3,h4,h5,h6,p{
 .contacts-list{
     display: flex;
     gap: 40px;
+    padding: 0;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    margin: 0 auto;
 }
 
 .nav-link:hover,
@@ -125,6 +132,11 @@ h1,h2,h3,h4,h5,h6,p{
 .page-header{
     border-bottom: 1px solid #e7e9fc;
     display: flex;
+    color: #fff;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    margin: 0 auto;
+    max-width: 320px;
 }
 
 .contact:hover,
@@ -135,9 +147,14 @@ h1,h2,h3,h4,h5,h6,p{
 .container-header{
     display: flex;
     justify-content: space-between;
+    padding-left: 16px;
+    padding-right: 16px;
 }
 
 .container{
+    max-width: 320px;
+    padding-left: 16px;
+    padding-right: 16px;
     width: 1158px;
     margin: 0 auto;
     padding: 0 15px;
