@@ -371,11 +371,6 @@ button{
     width: calc((100% - 48px) / 3);
 }
 
-.container-portfolio{
-    padding: 32px 16px;
-    border: 1px solid #e7e9fc;
-    border-top: none;
-}
 .prod-text{
     font-weight: 400;
     font-size: 16px;
@@ -402,7 +397,11 @@ button{
 
 .container{
     display: inline-block;
-    margin-bottom: 16px;
+    width: 1158px;
+    max-width: 1158px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: o auto;
 }
 .logo{
     font-family: "Raleway", sans-serif;
@@ -414,10 +413,16 @@ button{
     color: #4d5ae5;
     margin-right: 76px;
     display: inline-block;
+    text-decoration: none;
 }
 
 .logo-part{
-    color: #f4f4fd;
+    color: #2e2f42;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+
 }
 
 .text-logo{
