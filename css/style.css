@@ -357,7 +357,6 @@ button{
     letter-spacing: 0.02em;
     text-transform: uppercase;
     color: #f4f4fd;
-    display: inline-block;
 }
 
 .pages-footer{
@@ -388,7 +387,7 @@ button{
     font-weight: 700;
     line-height: 1.17;
     letter-spacing: 0.03em;
-
+    display: inline-block;
 }
 
 .text-logo{
