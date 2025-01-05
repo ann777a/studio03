@@ -27,7 +27,6 @@ h1,h2,h3,h4,h5,h6,p{
     padding-right: 15px;
     padding-left: 15px;
     margin: 0 auto;
-    display: flex;
 }
 
 img{
@@ -315,11 +314,6 @@ button{
     row-gap: 48px;
 }
 
-
-.our-portfolio{
-    width: calc((100% - 48px) / 3);
-}
-
 .port-label{
     display: flex;
     flex-direction: column;
@@ -343,14 +337,16 @@ button{
     letter-spacing: 0.02em;
 }
 
+.our-portfolio{
+    width: calc((100% - 48px) / 3);
+}
+
 .pages-footer{
     background-color: #2e2f42;
     min-height: 312px;
     padding: 100px 0;
-    display: flex;
     flex-direction: column;
     justify-content: center;
-    display: flex;
 }
 
 .logo-footer{
@@ -380,5 +376,4 @@ button{
     letter-spacing: 0.02em;
     color: #f4f4fd;
     max-width: 264px;
-    font-size: 16px;
 }
