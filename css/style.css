@@ -41,8 +41,6 @@ button{
 
 .page-header{
     border-bottom: 1px solid #e7e9fc;
-    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
-    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
 .header-container{
@@ -54,7 +52,6 @@ button{
 .header-nav{
     display: flex;
     align-items: center;
-    margin: 0px 329px 0px 0px;
 }
 
 .logo-header{
@@ -97,7 +94,6 @@ button{
     color: #2e2f42;
     text-decoration: none;
     padding: 24px 0;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .nav-link:hover,
@@ -125,7 +121,6 @@ button{
     color: #434455;
     text-decoration: none;
     display: flex;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .contact:hover,
@@ -140,27 +135,10 @@ button{
     background-color: #2e2f42;
     display: flex;
     text-align: center;
-    max-width: 1440px;
     height: 600px;
     padding-top: 188px;
     padding-bottom: 188px;
-    margin-right: auto;
-    margin-left: auto;
 }
-
-.nav-item .underline {
-    color: #404bbf;
-  }
-
-  .nav-item .underline::after {
-    content: "";
-    width: 48px;
-    height: 4px;
-    background-color: #404bbf;
-    border-radius: 2px;
-    display: block;
-    margin-top: 20px;
-  }
 
 .nav{
     display: flex;
@@ -174,8 +152,6 @@ button{
     letter-spacing: 0.02em;
     text-align: center;
     color: #fff;
-    background-color: #2e2f42;
-    text-transform: capitalize;
     max-width: 496px;
     margin-left: auto;
     margin-right: auto;
@@ -217,14 +193,6 @@ button{
     margin: -1px;
     border: 0;
     padding: 0;
-    white-space: nowrap;
-    clip-path: inset(100%);
-    clip: rect(0 0 0 0);
-    overflow: hidden;
-    white-space: nowrap;
-    clip-path: inset(100%);
-    clip: rect(0 0 0 0);
-    overflow: hidden;
 }
 
 .featur{
@@ -245,7 +213,6 @@ button{
 }
 
 .goal-item{
-    flex-wrap: wrap;
     width: calc((100% - 72px)/4);
     height: 104px;
     margin-bottom: 8px;
@@ -293,7 +260,6 @@ button{
     width: 264px;
     height: 428px;
     gap: 24px;
-    justify-content: space-around;
 }
 
 .container-team{
