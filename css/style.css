@@ -289,18 +289,16 @@ button{
 
 .galeri{
     background-color: #fff;
-    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(47, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
-    border: 1px;
+    /*box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(47, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+    border: 1px;*/
     border-radius: 0 0 4px 4px;
-    flex-wrap: wrap;
-    width: calc((100% - 72px)/4);
+    background: var(--white);
 }
 
 .komand{
     background-color: #f4f4fd;
-    padding: 120px 0;
-    display: flex;
-    gap: 24px;
+    padding: 120px;
+    padding-bottom: 120px;
 }
 
 .komand-list{
@@ -314,8 +312,17 @@ button{
     margin-bottom: 72px;
 }
 
+.team-list{
+    display: flex;
+    gap: 24px;
+    justify-content: space-around;
+}
+
 .container-team{
     padding: 32px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .team-card{
@@ -334,12 +341,10 @@ button{
 }
 
 .profes{
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     text-align: center;
-    color: #434455;
 }
 
 .portfolio{
