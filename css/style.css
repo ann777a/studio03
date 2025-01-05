@@ -208,12 +208,11 @@ button{
 
 .goal-list{
     margin: 0 auto;
-    display: flex;
     gap: 24px;
-    flex-direction: row;
 }
 
 .goal-item{
+    flex-wrap: wrap;
     width: calc((100% - 72px)/4);
 }
 
@@ -233,8 +232,6 @@ button{
     background-color: #fff;
     box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(47, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
     border: 1px;
-    border-radius: 0 0 4px 4px;
-    background: var(--white);
 }
 
 .komand{
