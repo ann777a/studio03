@@ -30,7 +30,7 @@ h1,h2,h3,h4,h5,h6,p{
     display: flex;
 }
 
-.img{
+img{
     display: block;
 }
 
@@ -272,7 +272,6 @@ button{
 
 .team-card{
     margin: 0 auto;
-    display: flex;
     gap: 24px;
 }
 .name{
