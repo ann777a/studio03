@@ -62,7 +62,6 @@ button{
     color: #4d5ae5;
     text-decoration: none;
     margin-right: 76px;
-    display: flex;
 }
 
 .logo-part{
@@ -93,6 +92,7 @@ button{
     color: #2e2f42;
     text-decoration: none;
     padding: 24px 0;
+    display: flex;
 }
 
 .nav-link:hover,
