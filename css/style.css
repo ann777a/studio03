@@ -315,10 +315,6 @@ button{
     row-gap: 48px;
 }
 
-.our-portfolio{
-    width: calc((100% - 48px) / 3);
-}
-
 .port-label{
     display: flex;
     flex-direction: column;
@@ -340,6 +336,10 @@ button{
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+}
+
+.our-portfolio{
+    width: calc((100% - 48px) / 3);
 }
 
 .text-footer{
@@ -374,7 +374,7 @@ button{
     margin-bottom: 16px;
 }
 
-.logo-part{
+footer .logo-part{
     color: #2e2f42;
     font-size: 18px;
     font-weight: 700;
