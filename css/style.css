@@ -194,6 +194,9 @@ button{
     margin: -1px;
     border: 0;
     padding: 0;
+    overflow: hidden;
+    clip: rect(0,0, 0, 0);
+    white-space: nowrap;
 }
 
 .featur{
@@ -207,7 +210,8 @@ button{
 }
 
 .goal-list{
-    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
     gap: 24px;
 }
 
